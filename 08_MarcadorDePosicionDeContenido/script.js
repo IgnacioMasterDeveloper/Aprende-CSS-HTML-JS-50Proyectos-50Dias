@@ -13,13 +13,13 @@ setTimeout(getData, 2500)
 function getData() {
     header.innerHTML =
         '<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />'
-    title.innerHTML = 'Lorem ipsum dolor sit amet'
+    title.innerHTML = 'Aprende CSS, HTML y JavaScript'
     excerpt.innerHTML =
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis'
+        '50 Proyectos en 50 días'
     profile_img.innerHTML =
-        '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />'
-    name.innerHTML = 'José Ignacio'
-    date.innerHTML = 'Oct 21, 2023'
+        '<img src="../08_MarcadorDePosicionDeContenido/PicsArt_07-05-06.28.34.jpg" alt="" />'
+    name.innerHTML = 'ignaciomaster.dev'
+    date.innerHTML = 'Ago 21, 2023'
 
     animated_bgs.forEach((bg) => bg.classList.remove('animated-bg'))
     animated_bg_texts.forEach((bg) => bg.classList.remove('animated-bg-text'))
